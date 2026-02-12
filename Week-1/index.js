@@ -10,3 +10,13 @@ z = "Harkirat";
 z = true;
 console.log(z);
 
+
+function greet(nameOfPerson){
+    console.log("hello", nameOfPerson);
+    console.log("How are u", nameOfPerson);
+    console.log("Fine!", nameOfPerson);
+    
+}
+let firstName = "Harkirat";
+greet(firstName);
+
